@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aviation Passion</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">✈ AviationPassion</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Accueil</a></li>
+      <li><a href="#about">Ma Passion</a></li>
+      <li><a href="#planes">Avions Favoris</a></li>
+      <li><a href="#facts">Faits Insolites</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="clouds">
+      <div class="cloud c1"></div>
+      <div class="cloud c2"></div>
+      <div class="cloud c3"></div>
+    </div>
+    <div class="plane-fly">✈</div>
+    <div class="hero-content">
+      <p class="hero-sub">Bienvenue dans mon univers</p>
+      <h1 class="hero-title">La Passion<br /><span>des Avions</span></h1>
+      <p class="hero-desc">Depuis toujours, le ciel m'a fasciné. Chaque appareil est une prouesse d'ingénierie, une histoire, un rêve devenu réalité.</p>
+      <a href="#about" class="btn-primary">Découvrir mon histoire</a>
+    </div>
+    <div class="scroll-hint">↓ Scroll</div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <div class="about-text">
+        <span class="section-tag">// Ma Passion</span>
+        <h2>Pourquoi les avions ?</h2>
+        <p>Tout a commencé à l'âge de 7 ans, le nez collé contre la vitre d'un aéroport, regardant un Boeing 747 décoller. Ce moment a changé ma vie pour toujours.</p>
+        <p>Les avions représentent pour moi le <strong>summum de l'ingénierie humaine</strong> : des machines de centaines de tonnes qui défient la gravité, connectent les continents et réalisent l'impossible rêve millénaire du vol.</p>
+        <p>Je collectionne les maquettes, lis des dizaines de livres d'aéronautique, et ne rate aucun meeting aérien. Le simple son d'un réacteur me donne des frissons.</p>
+        <div class="stats-row">
+          <div class="stat">
+            <span class="stat-num">150+</span>
+            <span class="stat-label">Avions photographiés</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">30+</span>
+            <span class="stat-label">Maquettes</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">20+</span>
+            <span class="stat-label">Ans de passion</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual">
+        <div class="cockpit-card">
+          <div class="cockpit-icon">🛩️</div>
+          <p>"Le vol est la plus proche approximation que l'homme ait jamais faite du rêve."</p>
+          <span>— Neil Armstrong</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planes Section -->
+  <section class="planes" id="planes">
+    <div class="section-container">
+      <span class="section-tag">// Mes favoris</span>
+      <h2>Les Avions qui m'inspirent</h2>
+      <div class="planes-grid">
+
+        <div class="plane-card">
+          <div class="plane-emoji">🛫</div>
+          <h3>Concorde</h3>
+          <p class="plane-era">1969 — 2003</p>
+          <p>L'icône du vol supersonique civil. Traverser l'Atlantique en 3h30 à Mach 2 reste une performance inégalée à ce jour.</p>
+          <div class="plane-specs">
+            <span>Mach 2.04</span>
+            <span>18 000 m d'altitude</span>
+          </div>
+        </div>
+
+        <div class="plane-card featured">
+          <div class="plane-badge">Favori absolu</div>
+          <div class="plane-emoji">✈</div>
+          <h3>Boeing 747</h3>
+          <p class="plane-era">1968 — aujourd'hui</p>
+          <p>La "Reine des cieux". Ce géant a démocratisé le voyage aérien et reste l'un des appareils les plus reconnaissables au monde.</p>
+          <div class="plane-specs">
+            <span>988 km/h</span>
+            <span>660 passagers max</span>
+          </div>
+        </div>
+
+        <div class="plane-card">
+          <div class="plane-emoji">🛸</div>
+          <h3>SR-71 Blackbird</h3>
+          <p class="plane-era">1966 — 1998</p>
+          <p>L'avion espion le plus rapide jamais construit. À Mach 3.2, sa peinture atteignait 300°C en vol.</p>
+          <div class="plane-specs">
+            <span>Mach 3.2</span>
+            <span>26 000 m d'altitude</span>
+          </div>
+        </div>
+
+        <div class="plane-card">
+          <div class="plane-emoji">🛬</div>
+          <h3>Airbus A380</h3>
+          <p class="plane-era">2005 — aujourd'hui</p>
+          <p>Le plus grand avion de ligne du monde. Deux ponts complets, des bars et même des douites en première classe.</p>
+          <div class="plane-specs">
+            <span>903 km/h</span>
+            <span>853 passagers max</span>
+          </div>
+        </div>
+
+        <div class="plane-card">
+          <div class="plane-emoji">🚀</div>
+          <h3>F-22 Raptor</h3>
+          <p class="plane-era">2005 — aujourd'hui</p>
+          <p>Le chasseur furtif le plus avancé au monde. Sa manœuvrabilité à haute vitesse défie les lois de l'aérodynamique classique.</p>
+          <div class="plane-specs">
+            <span>Mach 2.25</span>
+            <span>Furtivité totale</span>
+          </div>
+        </div>
+
+        <div class="plane-card">
+          <div class="plane-emoji">🛡️</div>
+          <h3>Spitfire</h3>
+          <p class="plane-era">1938 — 1961</p>
+          <p>Héros de la Bataille d'Angleterre. Son silhouette élégante avec ses ailes elliptiques reste l'un des plus beaux avions de guerre.</p>
+          <div class="plane-specs">
+            <span>594 km/h</span>
+            <span>Moteur Merlin V12</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Facts Section -->
+  <section class="facts" id="facts">
+    <div class="section-container">
+      <span class="section-tag">// Le saviez-vous ?</span>
+      <h2>Faits Insolites sur l'Aviation</h2>
+      <div class="facts-grid">
+        <div class="fact-card">
+          <span class="fact-icon">⚡</span>
+          <h4>Un éclair par an</h4>
+          <p>En moyenne, chaque avion commercial est frappé par la foudre une fois par an. Les avions sont conçus pour résister à ces impacts.</p>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">🦅</span>
+          <h4>Plus lourd que l'air</h4>
+          <p>Un Boeing 747 pèse 412 tonnes au décollage. La portance générée par ses ailes à 900 km/h suffit à maintenir tout cela en l'air.</p>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">🌍</span>
+          <h4>100 000 vols par jour</h4>
+          <p>Chaque jour, plus de 100 000 vols commerciaux sillonnent le ciel mondial, transportant environ 10 millions de passagers.</p>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">🔧</span>
+          <h4>6 millions de pièces</h4>
+          <p>Un Boeing 747 est composé de plus de 6 millions de pièces fabriquées dans 33 pays différents. L'assemblage prend 6 mois.</p>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">🎯</span>
+          <h4>Transport le plus sûr</h4>
+          <p>Statistiquement, vous avez plus de risques d'être blessé en vous rendant à l'aéroport qu'en volant dans un avion.</p>
+        </div>
+        <div class="fact-card">
+          <span class="fact-icon">🌡️</span>
+          <h4>-60°C dehors</h4>
+          <p>À 12 000m d'altitude, la température extérieure est d'environ -60°C. La cabine est maintenue à une confortable température de 20°C.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <span class="section-tag">// Contact</span>
+      <h2>Parlons Aviation !</h2>
+      <p class="contact-sub">Vous partagez cette passion ? Vous avez une question ? Écrivez-moi !</p>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <input type="text" placeholder="Votre nom" required />
+          <input type="email" placeholder="Votre email" required />
+        </div>
+        <input type="text" placeholder="Sujet (ex: Mon avion favori est...)" required />
+        <textarea placeholder="Votre message..." rows="5" required></textarea>
+        <button type="submit" class="btn-primary">Envoyer le message ✈</button>
+      </form>
+      <div id="success-msg" class="success-msg" style="display:none;">
+        ✅ Message envoyé ! Je vous répondrai très vite.
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">✈ AviationPassion</div>
+      <p>Fait avec ❤️ et une passion infinie pour les avions</p>
+      <p class="footer-copy">© 2026 AviationPassion — Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
